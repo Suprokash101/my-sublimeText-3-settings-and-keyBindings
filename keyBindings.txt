@@ -1,0 +1,59 @@
+[
+    { "keys": ["alt+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["alt+f"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["alt+s"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["alt+d"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["alt+e"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["alt+v"], "command": "move", "args": {"by": "lines", "forward": true} },
+    { "keys": ["alt+w"], "command": "move", "args": {"by": "pages", "forward": false} },
+    { "keys": ["alt+b"], "command": "move", "args": {"by": "pages", "forward": true} },
+    { "keys": ["alt+q"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["alt+r"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+    { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    { "keys": ["alt+n"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    { "keys": ["alt+m"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+    { "keys": ["ctrl+shift+s"], "command": "auto_save" },
+    { "keys": ["alt+t"], "command": "next_view_in_stack" },
+    { "keys": ["alt+u"], "command": "left_delete" },
+    { "keys": ["alt+o"], "command": "right_delete" },
+    { "keys": ["alt+j"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+    { "keys": ["alt+k"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+    { "keys": ["alt+y"], "command": "delete_word", "args": { "forward": false } },
+    { "keys": ["alt+i"], "command": "delete_word", "args": { "forward": true } },
+]
+// alt + p -> ctrl + shift + p
+// alt + c -> toggle sidebar
+// alt + a -> move to the start of a line
+// alt + f -> move to the end of a line
+// alt + s -> move cursor to left by one letter
+// alt + d -> move cursor to right by one letter
+// alt + e -> move cursor to one line up
+// alt + v -> move cursor to one line down
+// alt + w -> page up
+// alt + b -> page down
+// alt + q -> move cursor to the left by one word
+// alt + r -> move cursor to the right by one word
+// alt + h -> works as (shift+left)
+// alt + l -> works as (shift+right)
+// alt + m -> works as (shift+down)
+// alt + n -> works as (shift+up)
+// ctrl + 0 -> focus on sidebar (press "esc" to come back to the main view)
+// alt + t -> toggle tabs
+// alt + 1 -> layout_single
+// alt + 2 -> layout_column_2
+// alt + 3 -> layout_row_2
+// ctrl + shift + s -> auto save (turn on/off)
+// ctrl + shift + h -> pretify html,css, js
+// ctrl + 1,2,3,... -> shifting cursor focus among layout groups
+// ctrl + shift + 1,2,3,... -> shifting focused tab among layout groups
+// ctrl + k and ctrl + u -> toggle to uppercase
+// alt + o -> right delete (works as 'delete' key)
+// alt + u -> left delete (works as 'backspace' key)
+// alt + j -> works as <ctrl+shift+leftArrow>
+// alt + k -> works as <ctrl+shift+rightArrow>
+// ctrl + / -> line comment(after selection)
+// ctrl + shift + / -> block comment(after selection)
+// alt + y -> delete previous word
+// alt + i -> delete next word
+// ctrl + g -> goto line

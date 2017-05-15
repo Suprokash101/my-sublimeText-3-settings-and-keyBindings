@@ -2,6 +2,7 @@
     "Seti_lime_scrollbar": true,
     "Seti_lime_statusbar": true,
     "Seti_lime_tab": true,
+    "Seti_yellow_tabclose": true,
     "Seti_show_group_arrows": true,
     "Seti_sidebar_font_Hack": true,
     "Seti_sidebar_font_size_12": true,

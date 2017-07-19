@@ -20,6 +20,7 @@
             "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
         }
     ],
+    "caret_style": "solid",
     "caret_extra_bottom": 3,
     "caret_extra_top": 3,
     "caret_extra_width": 2,

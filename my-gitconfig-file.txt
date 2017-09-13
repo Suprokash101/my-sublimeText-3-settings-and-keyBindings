@@ -1,0 +1,20 @@
+[user]
+    name = Suprokash101
+    email = suprokash.web@gmail.com
+[core]
+    editor = subl -w -multiInst
+[gui]
+[alias]
+    lol = log --graph --decorate --pretty=oneline --all --abbrev-commit
+[diff]
+    tool = p4merge
+[difftool "p4merge"]
+    path = C:/Program Files/Perforce/p4merge.exe
+[difftool]
+    prompt = false
+[merge]
+    tool = p4merge
+[mergetool "p4merge"]
+    path = C:/Program Files/Perforce/p4merge.exe
+[mergetool]
+    prompt = false

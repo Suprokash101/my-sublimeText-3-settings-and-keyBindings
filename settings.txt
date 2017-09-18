@@ -1,4 +1,5 @@
 {
+    "update_check": false,
     "Seti_lime_scrollbar": true,
     "Seti_lime_statusbar": true,
     "Seti_lime_tab": true,

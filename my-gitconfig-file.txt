@@ -1,11 +1,21 @@
 [user]
     name = Suprokash101
-    email = suprokash.web@gmail.com
+    email = <my-email>.web@gmail.com
 [core]
     editor = subl -w -multiInst
 [gui]
 [alias]
     lol = log --graph --decorate --pretty=oneline --all --abbrev-commit
+#############################################################
+# this aliases are from "Tim Rayburn's GIT Aliases"
+##############################################################
+    myalias = "!git config --list | findstr 'alias'"
+    s = -p status
+    a = add -A
+    b = branch
+    c = checkout
+    cm = checkout master
+    cb = checkout -b
 [diff]
     tool = p4merge
 [difftool "p4merge"]

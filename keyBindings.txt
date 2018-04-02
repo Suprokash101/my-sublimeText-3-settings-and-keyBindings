@@ -23,11 +23,11 @@
     { "keys": ["alt+i"], "command": "delete_word", "args": { "forward": true } },
     { "keys": ["ctrl+shift+i"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "snippet:"} },
     { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
-    { "keys": ["alt+p"], "command": "emmet_css_from_one_line" }
+    { "keys": ["alt+x"], "command": "emmet_css_from_one_line" }
 ]
 
 //---------------------------------------------------------
-// alt + p -> for "EmmetOneLine" plugin auto completion
+// alt + x -> for "EmmetOneLine" plugin auto completion
 // ctrl + shift + i -> for avaiable snippets
 // alt + p -> ctrl + shift + p
 // alt + c -> toggle sidebar
